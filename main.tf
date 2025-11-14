@@ -29,6 +29,6 @@ output "lb_dns_name" {
   value = module.preview_env.lb_dns_name
 }
 
-# output "preview_url" {
-#   value = module.preview_env.preview_url
-# }
+output "preview_url" {
+  value = module.preview_env.preview_url
+}
